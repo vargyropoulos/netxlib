@@ -1,4 +1,4 @@
-from .netxlib.paramiko import send_cmd
+from netxlib.paramiko import send_cmd
 
 def show_version(remote_connection):
     cmd = "show version\n"

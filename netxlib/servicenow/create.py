@@ -3,7 +3,7 @@ import json
 import time
 
 from django.conf import settings
-from .netxlib import rest
+from netxlib import rest
 
 # Global variables
 servicenow_user = settings.SERVICENOW_USER
