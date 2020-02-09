@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="netxlib",
-    version="0.0.1a",
+    version="0.0.2",
     author="Vasilis Argyropoulos",
     author_email="netxlib@vasilisargyropoulos.com",
     description="A collection of network utilities for Python",
